@@ -3,6 +3,7 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  Tags: /tags
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -14,7 +15,7 @@ menu:
 widgets: 
 # - github-card
 - category
-# - tag
+- tag
 - links
 - douban
 - rss
