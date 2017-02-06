@@ -12,9 +12,9 @@ menu:
 
 #### Widgets
 widgets: 
-- github-card
+# - github-card
 - category
-- tag
+# - tag
 - links
 - douban
 - rss
@@ -87,7 +87,7 @@ links:
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: oxgen   ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
@@ -99,7 +99,7 @@ jiathis:
 #### Analytics
 google_analytics:
   enable: false
-  id:        ## e.g. UA-46321946-2 your google analytics ID.
+  id: UA-91431868-1       ## e.g. UA-46321946-2 your google analytics ID.
   site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
