@@ -13,7 +13,7 @@ menu:
 
 #### Widgets
 widgets: 
-# - github-card
+- github-card
 - category
 - tag
 - links
