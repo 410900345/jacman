@@ -16,7 +16,11 @@
             <a href="<%- url_for(item.path) %>#more"><%= theme.index.excerpt_link %></a>
           <% } %>
        </p>
+    
     </div>
+       <% if (!index && theme.donate ){ %>
+  <%- partial('donate') %>
+<% } %>
     <%- partial('post/footer', {index: true}) %>
     </article>
 <% }else{ %>
